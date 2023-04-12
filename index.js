@@ -6,7 +6,6 @@ let questionButton2 = document.querySelector("#answer2");
 let questionButton3 = document.querySelector("#answer3");
 let questionButton4 = document.querySelector("#answer4");
 let timer = 90;
-let timerDisplay = document.querySelector("#timer");
 
 let timerId = setInterval(function () {
 
@@ -15,7 +14,7 @@ let timerId = setInterval(function () {
 
 }, 1000)
 
-renderTime();
+
 
 let questions = [
     { question: "Which pokemon does Ash get at the start of pokemon?", answers: ["charmander", "squirtle", "bulbasaur", "pikachu"], correctAnswer: "pikachu" },
