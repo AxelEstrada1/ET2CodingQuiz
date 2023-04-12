@@ -1,4 +1,32 @@
 div {
+
     text-align: center;
     padding: 150px;
 }
+
+button {
+    display: grid;
+    grid-template-areas:
+        ". a ."
+        ". b ."
+        ". c ."
+        ". d .";
+}
+
+.answer1 {
+    grid-area: a;
+}
+
+.answer2 {
+    grid-area: b,
+}
+
+.answer3 {
+    grid-area: c,
+}
+
+.answer4 {
+    grid-area: d,
+}
+
+h1 {}
